@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO bookings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        .my-footer {
+            width: 100%;
+            background-color: #575757;
+            color: #fff;
+            margin: 1.5em 0 0 0;
+            padding: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            box-sizing: border-box;
+        }
+        .my-footer span {
+            width: auto;
+        }
+        .room-image {
+            max-width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarSupportContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Rooms
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/rooms/generals-quarters">Generals Quarters</a></li>
+                        <li><a class="dropdown-item" href="/rooms/majors-suite">Majors Suite</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/make-reservation">Book now</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <h1>Contact Page</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <a href="/make-reservation-ms" class="btn btn-success">Check Availability</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row my-footer">
+        <span>one</span>
+        <span>one</span>
+        <span>one</span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
